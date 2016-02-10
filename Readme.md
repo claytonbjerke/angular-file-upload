@@ -11,3 +11,7 @@
 ### List Available Gulp Tasks
 
 1. gulp help
+
+### Docs
+
+1. https://github.com/danialfarid/ng-file-upload
