@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('angularStarterKit', ['ui.router'])
+    angular.module('angularStarterKit', ['ui.router', 'ngFileUpload'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
 

@@ -1,1 +1,9 @@
-Example 1 Home
+<div>
+    <div ngf-drop ngf-select ng-model="image" ngf-multiple="false" class="drop-box" ngf-drag-over-class="'dragover'" ngf-allow-dir="true" accept="image/*" ngf-pattern="'image/*'">
+        Drop Image here.
+    </div>
+    <div ngf-no-file-drop>File Drag/Drop is not supported for this browser</div>
+    <div>
+        <img ng-src="{{imageUrl}}" alt="idk">
+    </div>
+</div>
