@@ -19,9 +19,10 @@
 
         $scope.$watch('image', function () {
             if ($scope.image) {
-                imageUploader.uploadImage($scope.image).then(function(imageUrl) {
-                    $scope.imageUrl = imageUrl;
-                });
+                console.log('image: ', $scope.image);
+//                imageUploader.uploadImage($scope.image).then(function(imageUrl) {
+//                    $scope.imageUrl = imageUrl;
+//                });
             }
         });
     }
